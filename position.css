@@ -1,0 +1,67 @@
+*,*::before ::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(189, 231, 220);
+    margin-top: 0px;
+}
+nav  {
+   color: beige;  
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   background-color: black;
+   text-align: center;
+   position: fixed;
+   left: 0px;
+   right: 0px;
+   z-index: 2;
+  
+   
+}
+
+section >div{
+    padding: 6%;
+}
+section > div *{
+    display: inline-block;
+}
+.actors{
+    position: sticky;
+    width: 30%;
+    top: 50px;
+    text-align: center;
+    vertical-align: top;
+    padding-block: 6% ;
+   
+}
+.actors > div{
+    position: relative;
+    padding: 1rem 2.5rem;
+    border-radius: 10px;
+    left: 0;
+    right: 0;
+}
+.actors > div >img{
+   
+    position: absolute;
+    top: -65px;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+
+}
+.summary{ 
+   width: 60%;
+}
+.summary > p{
+    padding-block-end: 2rem;
+    text-align: justify;
+}
+ .summary  strong{
+    font-weight: 800;
+    color: red;
+    font-size: x-large;
+}
